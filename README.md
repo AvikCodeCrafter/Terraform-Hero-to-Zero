@@ -31,6 +31,21 @@ terraform init
 - Downloads provider plugins
 - Sets up the working directory
 
+### **Sample check to create AWS EC2 Instance via IAAC tool Terraform**
+```sh
+
+  resource "aws_instance" "example" {
+  ami           = "ami-0cae6d6fe6048ca2c"
+  instance_type = "t3.micro"
+  count = 5
+
+  tags = {
+    Name = "HelloWorld"
+  }
+}
+
+```
+
 ## **2. Terraform Core Commands**
 ### **Format & Validate Code**
 ```sh
