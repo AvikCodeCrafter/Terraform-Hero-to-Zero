@@ -159,7 +159,7 @@ terraform apply 2>&1 | tee debug.log  # Save logs
 [Get it here](https://github.com/AvikCodeCrafter/Terraform-Ansible-Multi-Env.git)
 
 ### Terraform with GitHub
-[Get it here](workflows)
+[Get it here](https://github.com/AvikCodeCrafter/Online_Shop/tree/main/workflows)
 
 ### Terraform to EKS
 [Get it here](https://github.com/DevMadhup/Springboot-BankApp/tree/DevOps/Terraform/EKS-Deployment)
