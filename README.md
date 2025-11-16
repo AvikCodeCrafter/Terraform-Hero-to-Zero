@@ -23,7 +23,10 @@ provider "aws" {
 ```
 
 ### **Initialize Terraform**
+```sh
+
 terraform init
+
 ```
 - Downloads provider plugins
 - Sets up the working directory
