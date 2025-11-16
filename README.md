@@ -15,7 +15,7 @@ sudo apt-get update && sudo apt-get install terraform
 terraform -v
 ```
 
-### **Give Provider Plugin Terraform**
+### **Give Provider Plugin (AWS/Azure/GCP)**
 ```sh
 provider "aws" {
   region     = "us-east-1"
