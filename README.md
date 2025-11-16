@@ -15,8 +15,14 @@ sudo apt-get update && sudo apt-get install terraform
 terraform -v
 ```
 
-### **Initialize Terraform**
+### **Give Provider Plugin Terraform**
 ```sh
+provider "aws" {
+  region     = "us-east-1"
+}
+```
+
+### **Initialize Terraform**
 terraform init
 ```
 - Downloads provider plugins
